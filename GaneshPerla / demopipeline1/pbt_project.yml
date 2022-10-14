@@ -1,0 +1,24 @@
+name: demopipeline1
+description: ''
+version: 0.0.1
+author: ganesh.perla12@gmail.com
+language: python
+buildSystem: wheel
+pipelines:
+  pipelines/demo1:
+    name: demo1
+    description: ''
+    author: ganesh.perla12@gmail.com
+    mode: batch
+    language: python
+    createdAt: '2022-10-14 06:33:00'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+libraries: []
+subgraphs: {}
+dependencies: '[]'
